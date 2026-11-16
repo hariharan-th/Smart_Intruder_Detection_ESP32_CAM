@@ -1,0 +1,16 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Local configuration and secrets
+secrets.h
+private_config.h
+.env
+
