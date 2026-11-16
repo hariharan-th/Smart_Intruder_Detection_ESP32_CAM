@@ -8,7 +8,7 @@ An ESP32-CAM and PIR-based security prototype. Motion detection triggers a camer
 - ESP32-CAM image capture
 - Telegram photo alerts
 - `/photo`, `/auto_on`, and `/auto_off` bot commands
-- Circuit diagram and product interface preview
+- Circuit diagrams, the Telegram control interface, and setup reference images
 
 ## Hardware
 
@@ -41,6 +41,26 @@ This upload is a prototype starter sketch. The camera configuration includes an 
 
 ![ESP32-CAM and PIR circuit](assets/circuit.png)
 
+## Telegram interface and commands
+
+The supplied screenshots show the Telegram control panel and its visible command labels.
+
+![Telegram bot control interface](assets/telegram-interface.png)
+
+![Telegram command label reference](assets/telegram-command-reference.png)
+
+## Emergency push-button circuit
+
+The diagram below shows the supplied transmitter and receiver circuit concept for an additional emergency push button. Confirm the pin assignments and power requirements against the actual hardware before wiring.
+
+![Emergency push-button transmitter and receiver circuit](assets/panic-button-circuit.png)
+
+## Product setup and installation guide
+
+This is the supplied product usage and installation interface screenshot. Its webpage source is not included in this repository.
+
+![Product setup and installation guide](assets/installation-guide.png)
+
 ## Product interface preview
 
 ![Security product webpage preview](assets/product-interface.png)
@@ -49,5 +69,5 @@ The preview shows the supplied product webpage image; the webpage source is not 
 
 ## Repository topics
 
-`esp32` · `esp32-cam` · `iot` · `intrusion-detection` · `telegram-bot`
+`esp32` · `esp32-cam` · `iot` · `intrusion-detection` · `telegram`
 
