@@ -49,7 +49,7 @@ The supplied screenshots show the Telegram control panel and its visible command
 
 ![Telegram command label reference](assets/telegram-command-reference.png)
 
-## Emergency push-button circuit
+## Emergency push-button circuit(additional/supportive system for elders/children's Home alone safety button )
 
 The diagram below shows the supplied transmitter and receiver circuit concept for an additional emergency push button. Confirm the pin assignments and power requirements against the actual hardware before wiring.
 
