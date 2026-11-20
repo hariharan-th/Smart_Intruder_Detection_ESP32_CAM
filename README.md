@@ -14,6 +14,7 @@ An ESP32-CAM and PIR-based security prototype. Motion detection triggers a camer
 
 - AI Thinker ESP32-CAM
 - PIR motion sensor
+- sound sensor
 - Suitable regulated power source
 - Jumper wires and breadboard
 
